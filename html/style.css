@@ -1,14 +1,43 @@
+html{
+    font-family: 'Noto Sans', sans-serif;
+}
 body{
-    background-color: #F57A7A;
     font-size: 20px;
     text-align: center;
+    background: rgb(147,112,219);
+    background: linear-gradient(197deg, rgba(147,112,219,1) 0%, rgba(202,118,164,1) 25%, rgba(245,122,122,1) 71%, rgba(144,238,144,1) 100%);
 }
 
 img{
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .menu{
-    list-style: nonegit s;
+    list-style: none;
 }
 
+#minhafoto{
+    border-radius: 50%;
+    height: 250px;
+}
+
+iframe{
+    border-radius: 15px;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    padding: 10px;
+    margin: 10px;
+}
+
+p{
+    margin-left: 150px;
+    margin-right: 150px;
+}
